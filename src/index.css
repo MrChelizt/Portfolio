@@ -41,7 +41,7 @@ body {
 }
 
 main.color-1 {
-  --primary-hue: 270;
+  --primary-hue: 0;
 }
 
 main.color-2 {
@@ -57,7 +57,7 @@ main.color-4 {
 }
 
 main.color-5 {
-  --primary-hue: 0;
+  --primary-hue: 270;
 }
 
 main.color-6 {

@@ -41,13 +41,11 @@ export default function About() {
           </p>
           <p>
             With these experiences, I am confident that I am:
-            <ul>
-              <li>- Quick learner</li>
-              <li>- Don’t take shortcuts</li>
-              <li>- Sincerely reliable sidekick</li>
-              <li>- Have high standards for my work</li>
-              <li>- Think outside of the box whenever necessary</li>
-            </ul>
+            <li>- Quick learner</li>
+            <li>- Don’t take shortcuts</li>
+            <li>- Sincerely reliable sidekick</li>
+            <li>- Have high standards for my work</li>
+            <li>- Think outside of the box whenever necessary</li>
           </p>
           <a href={CV} download className="btn primary">
             Download CV <HiDownload />
