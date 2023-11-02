@@ -36,7 +36,6 @@ export default function App() {
     } else {
       hideFloatingNavHandler();
     }
-
     setSiteYPosition(mainRef?.current?.getBoundingClientRect().y);
   };
 

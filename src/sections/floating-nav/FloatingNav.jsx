@@ -9,9 +9,9 @@ export default function FloatingNav() {
   return (
     <ul id="floating__nav">
       <Scrollspy
-        offset={-400}
+        offset={-300}
         className="scrollspy"
-        items={["header", "about", "services", "portfolio", "contact"]}
+        items={["header", "about", "specialisations", "portfolio", "contact"]}
         currentClassName="active"
       >
         {data.map((item) => (
