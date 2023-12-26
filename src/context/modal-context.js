@@ -1,27 +1,27 @@
-import { createContext, useContext, useState } from "react";
+import {createContext, useContext, useState} from "react";
 
 const ModalContext = createContext();
 
-export function ModalProvider({ children }) {
-  const [showModal, setShowModal] = useState(false);
+export function ModalProvider({children}) {
+    const [showModal, setShowModal] = useState(false);
 
-  const showModalHandler = () => {
-    setShowModal(true);
-  };
+    const showModalHandler = () => {
+        setShowModal(true);
+    };
 
-  const closeModalHandler = () => {
-    setShowModal(false);
-  };
+    const closeModalHandler = () => {
+        setShowModal(false);
+    };
 
-  return (
-    <ModalContext.Provider
-      value={{ showModal, showModalHandler, closeModalHandler }}
-    >
-      {children}
-    </ModalContext.Provider>
-  );
+    return (
+        <ModalContext.Provider
+            value={{showModal, showModalHandler, closeModalHandler}}
+        >
+            {children}
+        </ModalContext.Provider>
+    );
 }
 
 export function useModalContext() {
-  return useContext(ModalContext);
+    return useContext(ModalContext);
 }
